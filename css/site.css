@@ -569,9 +569,15 @@ p {
   margin-top: 32px;
 }
 
+/* Flex rather than grid so a partly filled last row stays centred */
 .logo-grid--centered {
-  grid-template-columns: repeat(auto-fit, minmax(160px, 240px));
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.logo-grid--centered a {
+  width: 240px;
 }
 
 .logo-grid a {
@@ -594,8 +600,8 @@ p {
     gap: 8px 24px;
   }
 
-  .logo-grid--centered {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 180px));
+  .logo-grid--centered a {
+    width: 150px;
   }
 
   .partner-group {
