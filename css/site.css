@@ -684,10 +684,6 @@ p {
   gap: 24px 56px;
 }
 
-.calendar-head img {
-  width: min(100%, 520px);
-}
-
 .calendar-head .btn {
   text-transform: none;
   padding: 14px 64px;
