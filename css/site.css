@@ -692,7 +692,7 @@ p {
 .schedule {
   width: 100%;
   max-width: 810px;
-  margin: 32px auto 0;
+  margin: 0 auto 32px;
 }
 
 .soar {
